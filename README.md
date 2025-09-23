@@ -2,7 +2,7 @@
 # AgroPredict
 
 ## ➲ Project description
-This project develops a crop recommendation system based on soil characteristics and environmental conditions. The model is trained on a dataset containing various features such as nitrogen, phosphorus, potassium levels, temperature, humidity, pH, and rainfall. Multiple machine learning algorithms, including Random Forest, Decision Tree, SVM, Logistic Regression, and several deep learning models like LSTM, ANN, RNN, and CNN, are used to predict the most suitable crop for a given set of conditions. The final prediction is made using an ensemble model based on majority voting.
+This project develops a crop recommendation system based on soil characteristics and environmental conditions. The model is trained on a dataset containing various features such as nitrogen, phosphorus, potassium levels, temperature, humidity, pH, and rainfall. Multiple machine learning algorithms, including Random Forest, Decision Tree, SVM, Logistic Regression, and several deep learning models like LSTM are used to predict the most suitable crop for a given set of conditions. The final prediction is made using an ensemble model based on majority voting.
 
 <img src="https://img.shields.io/badge/Language:-Python-5555ff">  <img src="https://img.shields.io/badge/Platform:- Google Colab-E32800">
 
@@ -26,9 +26,6 @@ The dataset contains features relevant to crop growth and yield. The data includ
     - SVM
     - Logistic Regression
     - LSTM
-    - ANN
-    - RNN
-    - CNN
 4. Hyperparameter Tuning (Random Forest)
 5. Model Ensemble and Prediction
 6. Predicting Crop for New Data Points
@@ -41,9 +38,6 @@ The accuracy scores and classification reports for each model are provided, with
 - **SVM Accuracy:** 
 - **Logistic Regression Accuracy:** 
 - **LSTM Accuracy:** 
-- **ANN Accuracy:** 
-- **RNN Accuracy:** 
-- **CNN Accuracy:** 
 - **Ensemble Model Accuracy:** 
 
 ## ➲ USAGE
